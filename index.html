@@ -49,5 +49,25 @@
                 Contact us to get free support
             </h3>
     </div>
+    <form action="contact.php" method="POST">
+        <div class="inputs-flex container">
+            <div>
+                <textarea class="description" name="description" id="description" cols="30" rows="10">Description</textarea>
+            </div>
+            <div class="inputs">
+                <label for="subject"></label>
+                <input type="text" name="subject" id="subject" class="form-input" placeholder="subject" required>
+
+                <label for="Name/Surname"></label>
+                <input type="text" name="Name/Surname" id="Name/Surname" class="form-input" placeholder="Name/Surname" required>
+
+                <label for="email"></label>
+                <input type="email" name="email" id="email" class="form-input" placeholder="Email" required>
+                <div>
+                    <button class="send-button">Send <img src="photos/send.svg" alt="send"> </button>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
