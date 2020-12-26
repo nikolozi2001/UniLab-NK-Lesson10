@@ -61,6 +61,7 @@ ul span{
 .description{
     width: 720px;
     height: 288px;
+    resize: none;
     margin: 50px 0;
     padding: 20px;
     background-color: #F8F8F8;
