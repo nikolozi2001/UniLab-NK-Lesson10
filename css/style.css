@@ -45,3 +45,16 @@ ul span{
     flex-direction: row;
     align-items: center;
 }
+.link-contact{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #5863F8;
+}
+.contact-title {
+    max-width: 375px;
+    width: 100%;
+    font-size: 42px;
+    font-family: 'Poppins';
+    color: #000000;
+    padding: 15px 0;
+}
