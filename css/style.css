@@ -155,11 +155,21 @@ ul span{
         color: white;
     }
     .description{
-        margin-right: 15px;
         width: 300px;
+        margin-right: 15px;
+        background: gray;
+    }
+    .form-input{
+        background: gray;
     }
     .form, .footer-flex{
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .container{
+        padding-top: 30px;
+    }
+    .contact-title{
+        color: rgb(47, 47, 255);
     }
 
 }
@@ -172,9 +182,19 @@ ul span{
         background-color: black;
         color: white;
     }
+    .container{
+        padding-top: 30px;
+    }
+    .contact-title{
+        color: rgb(47, 47, 255);
+    }
     .description{
-        margin-right: 15px;
         width: 300px;
+        margin-right: 15px;
+        background: gray;
+    }
+    .form-input{
+        background: gray;
     }
     .form, .footer-flex{
         flex-direction: column;
