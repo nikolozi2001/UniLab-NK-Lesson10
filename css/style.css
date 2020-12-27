@@ -105,3 +105,42 @@ ul span{
     padding: 3px;
     vertical-align: top;
 }
+.contact-flex span{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    background-color: #5863F8;
+    border-radius: 50%;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-ul, .phone-ul, .location-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.contact-ul, .phone-ul, .location-ul li{
+    padding: 3px 0;
+}
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+.contact-li, .phone-li, .location-li{
+    font-family: 'mPoppins';
+    font-size: 14px;
+}
