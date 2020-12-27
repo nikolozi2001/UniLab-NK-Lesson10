@@ -143,6 +143,7 @@ ul span{
 .contact-li, .phone-li, .location-li{
     font-family: 'mPoppins';
     font-size: 14px;
+    color: #B1B1B1;
 }
 .apperance {
     display: none;
