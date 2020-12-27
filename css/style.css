@@ -144,3 +144,30 @@ ul span{
     font-family: 'mPoppins';
     font-size: 14px;
 }
+/* starts media */
+@media (max-width: 1024px){
+    body{
+        background: rgb(128, 128, 128);
+    }
+    .description{
+        margin-right: 15px;
+        width: 300px;
+    }
+    .form, .footer-flex{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 375px){
+    body{
+        background: rgb(128, 128, 128);
+    }
+    .description{
+        margin-right: 15px;
+        width: 300px;
+    }
+    .form, .footer-flex{
+        flex-direction: column;
+    }
+    
+}
