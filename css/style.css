@@ -147,7 +147,12 @@ ul span{
 /* starts media */
 @media (max-width: 1024px){
     body{
-        background: rgb(128, 128, 128);
+        background-color: white;
+        color: black;
+    }
+    .dark-mode{
+        background-color: black;
+        color: white;
     }
     .description{
         margin-right: 15px;
@@ -160,7 +165,12 @@ ul span{
 }
 @media (max-width: 375px){
     body{
-        background: rgb(128, 128, 128);
+        background-color: white;
+        color: black;
+    }
+    .dark-mode{
+        background-color: black;
+        color: white;
     }
     .description{
         margin-right: 15px;
