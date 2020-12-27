@@ -180,6 +180,9 @@ ul span{
         width: 100px;
         display: block;
     }
+    .send-button {
+        border: none;
+    }
 
 }
 @media (max-width: 375px){
@@ -213,6 +216,9 @@ ul span{
     }
     .form, .footer-flex{
         flex-direction: column;
+    }
+    .send-button {
+        border: none;
     }
     
 }
