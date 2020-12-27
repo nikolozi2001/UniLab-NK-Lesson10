@@ -144,6 +144,9 @@ ul span{
     font-family: 'mPoppins';
     font-size: 14px;
 }
+.apperance {
+    display: none;
+}
 /* starts media */
 @media (max-width: 1024px){
     body{
@@ -171,6 +174,9 @@ ul span{
     .contact-title{
         color: rgb(47, 47, 255);
     }
+    .apperance {
+        display: block;
+    }
 
 }
 @media (max-width: 375px){
@@ -181,6 +187,9 @@ ul span{
     .dark-mode{
         background-color: black;
         color: white;
+    }
+    .apperance{
+        display: block;
     }
     .container{
         padding-top: 30px;
