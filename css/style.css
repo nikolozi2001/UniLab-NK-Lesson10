@@ -161,9 +161,11 @@ ul span{
         width: 300px;
         margin-right: 15px;
         background: gray;
+        border: none;
     }
     .form-input{
         background: gray;
+        border: none;
     }
     .form, .footer-flex{
         flex-direction: row;
@@ -175,6 +177,7 @@ ul span{
         color: rgb(47, 47, 255);
     }
     .apperance {
+        width: 100px;
         display: block;
     }
 
@@ -189,6 +192,7 @@ ul span{
         color: white;
     }
     .apperance{
+        width: 100px;
         display: block;
     }
     .container{
@@ -201,9 +205,11 @@ ul span{
         width: 300px;
         margin-right: 15px;
         background: gray;
+        border: none;
     }
     .form-input{
         background: gray;
+        border: none;
     }
     .form, .footer-flex{
         flex-direction: column;
